@@ -1,3 +1,12 @@
+"""
+Name: 'Move vert on Z'
+Blender: 277
+Group: 'Mesh'
+Tooltip: ''
+"""
+
+
+
 import bpy
 import bmesh
 import random

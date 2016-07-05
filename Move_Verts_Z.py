@@ -17,9 +17,7 @@ bm.from_mesh(me)
 
 for v in bm.verts:
     r = random.uniform(-0.075,0.075)
-    v.co.z += v.normal.z * r
-    v.co.y += v.normal.y * r
-    v.co.x += v.normal.x * r
+    v.co += v.normal * r
 
 bm.to_mesh(me)
 bm.free()
